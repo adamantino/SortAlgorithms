@@ -11,5 +11,12 @@ public class UtilitiesFunctions {
 		
 		return copy;
 	}
+	
+	public static void printArray(String arrayName, int[] array){
+		System.out.println("\n\n" + arrayName);
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+	}
 
 }

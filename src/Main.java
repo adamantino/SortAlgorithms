@@ -32,36 +32,13 @@ public class Main {
 		int[] sortedArrayCountingSort = CountingSort.sort(UtilitiesFunctions.copy(buffer), maxElement);
 		
 	
-		System.out.println("\nArray to Sort:");
-		for (int i = 0; i < buffer.length; i++) {
-			System.out.print(buffer[i] + " ");
-		}
-		
-		System.out.println("\n\nInsertionSort:");
-		for (int i = 0; i < sortedArrayInsertionSort.length; i++) {
-			System.out.print(sortedArrayInsertionSort[i] + " ");
-		}
-		
-		System.out.println("\n\nMergeSort:");
-		for (int i = 0; i < sortedArrayMergeSort.length; i++) {
-			System.out.print(sortedArrayMergeSort[i] + " ");
-		}
-	
-		System.out.println("\n\nBoubleSort:");
-		for (int i = 0; i < sortedArrayBoubleSort.length; i++) {
-			System.out.print(sortedArrayBoubleSort[i] + " ");
-		}
-		
-		System.out.println("\n\nSequentialSort:");
-		for (int i = 0; i < sortedArraySequentialSort.length; i++) {
-			System.out.print(sortedArraySequentialSort[i] + " ");
-		}
-		
-		System.out.println("\n\nCountingSort:");
-		for (int i = 0; i < sortedArrayCountingSort.length; i++) {
-			System.out.print(sortedArrayCountingSort[i] + " ");
-		}
-		
+		UtilitiesFunctions.printArray("Buffer", buffer);
+		UtilitiesFunctions.printArray("InsertionSort", sortedArrayInsertionSort);
+		UtilitiesFunctions.printArray("MergeSort", sortedArrayMergeSort);
+		UtilitiesFunctions.printArray("BoubleSort", sortedArrayBoubleSort);
+		UtilitiesFunctions.printArray("SequentialSort", sortedArraySequentialSort);
+		UtilitiesFunctions.printArray("CountingSort", sortedArrayCountingSort);
+
 		
 	}
 
