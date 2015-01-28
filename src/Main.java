@@ -28,6 +28,7 @@ public class Main {
 		int[] sortedArrayInsertionSort = InsertionSort.sort(UtilitiesFunctions.copy(buffer));
 		int[] sortedArrayMergeSort = MergeSort.sort(UtilitiesFunctions.copy(buffer));
 		int[] sortedArrayBoubleSort = BoubleSort.sort(UtilitiesFunctions.copy(buffer));
+		int[] sortedArrayBoubleSortOptimized = BoubleSort.sortOptimizedVersion(UtilitiesFunctions.copy(buffer));
 		int[] sortedArraySequentialSort = BoubleSort.sort(UtilitiesFunctions.copy(buffer));
 		int[] sortedArrayCountingSort = CountingSort.sort(UtilitiesFunctions.copy(buffer), maxElement);
 		
@@ -36,6 +37,7 @@ public class Main {
 		UtilitiesFunctions.printArray("InsertionSort", sortedArrayInsertionSort);
 		UtilitiesFunctions.printArray("MergeSort", sortedArrayMergeSort);
 		UtilitiesFunctions.printArray("BoubleSort", sortedArrayBoubleSort);
+		UtilitiesFunctions.printArray("BoubleSortOptimizedVersion", sortedArrayBoubleSortOptimized);
 		UtilitiesFunctions.printArray("SequentialSort", sortedArraySequentialSort);
 		UtilitiesFunctions.printArray("CountingSort", sortedArrayCountingSort);
 

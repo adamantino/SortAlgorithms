@@ -18,7 +18,7 @@ public class BoubleSort {
 	}
 	
 	
-	public static int[] sort2(int[] array){
+	public static int[] sortOptimizedVersion(int[] array){
 		
 		int i = 0;
 		boolean swapPerformed = true;
