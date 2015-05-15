@@ -26,28 +26,18 @@ public class Main {
 		}	
 		
 		
-<<<<<<< HEAD
-		int[] sortedArrayInsertionSort = InsertionSort.sort(UtilitiesFunctions.copy(buffer));
-		int[] sortedArrayMergeSort = MergeSort.sort(UtilitiesFunctions.copy(buffer));
-		int[] sortedArrayBoubleSort = BoubleSort.sort(UtilitiesFunctions.copy(buffer));
-		int[] sortedArrayBoubleSortOptimized = BoubleSort.sortOptimizedVersion(UtilitiesFunctions.copy(buffer));
-		int[] sortedArraySequentialSort = BoubleSort.sort(UtilitiesFunctions.copy(buffer));
-		int[] sortedArrayCountingSort = CountingSort.sort(UtilitiesFunctions.copy(buffer), maxElement);
-=======
 		int[] sortedArrayInsertionSort = InsertionSort.sort(UtilitiesFunctions.copy(arrayr));
 		int[] sortedArrayMergeSort = MergeSort.sort(UtilitiesFunctions.copy(arrayr));
 		int[] sortedArrayBoubleSort = BoubleSort.sort(UtilitiesFunctions.copy(arrayr));
 		int[] sortedArraySequentialSort = BoubleSort.sort(UtilitiesFunctions.copy(arrayr));
 		int[] sortedArrayCountingSort = CountingSort.sort(UtilitiesFunctions.copy(arrayr), maxElement);
 		int[] sortedArrayQuickSort = QuickSort.sort(UtilitiesFunctions.copy(arrayr));
->>>>>>> origin/master
 		
 	
 		UtilitiesFunctions.printArray("Array", arrayr);
 		UtilitiesFunctions.printArray("InsertionSort", sortedArrayInsertionSort);
 		UtilitiesFunctions.printArray("MergeSort", sortedArrayMergeSort);
 		UtilitiesFunctions.printArray("BoubleSort", sortedArrayBoubleSort);
-		UtilitiesFunctions.printArray("BoubleSortOptimizedVersion", sortedArrayBoubleSortOptimized);
 		UtilitiesFunctions.printArray("SequentialSort", sortedArraySequentialSort);
 		UtilitiesFunctions.printArray("CountingSort", sortedArrayCountingSort);
 		UtilitiesFunctions.printArray("QuickSort", sortedArrayQuickSort);
